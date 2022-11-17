@@ -20,8 +20,8 @@ async def contact_share(msg: types.Message):
 # So'kish xabarlarni o'chirish uchun bads ga qo'shimcha so'zlar yozing...
 @dp.message_handler(IsGroup(), content_types=types.ContentType.TEXT)
 async def bad_msg(msg: types.Message):
-    bads = ['pidaraz', 'pidoraz', 'suka', 'dalbayop', 'dalpayop', 'qanjiq', 'yiban', 'yban', 'chumo', 'cumo', 'сука',
-            'долбаеб', 'пидораз', 'пидараз']
+    bads = ['pidaraz','chmo','lata','ypoд','aptinga', 'xaromi','onangni','opangni','Xaromi','haromi','xaromi','harom','xarom','chichiqo','osiroq','mordanga', 'pidoraz', 'suka', 'dalbayop', 'dalpayop','tvar','тварь', 'qanjiq', 'yiban', 'yban', 'chumo', 'cumo', 'сука',
+            'долбаеб', 'пидораз', 'пидараз','kot','Kot','kotmsan','itdan tarqagan','it bashara','chlen','otsosi','Otsosi','Maraz','Gandon','kotinga sqi','kotnga skey ','aminga','amnga','Aminga',' qotog bosh','Ypa','ypa','yabalnik','kotnga ske ']
     for bad_word in bads:
         if bad_word in msg.text.lower():
             await msg.delete()
