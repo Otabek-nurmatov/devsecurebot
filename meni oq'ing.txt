@@ -1,0 +1,11 @@
+secure.py ichiga komment qoldirilgan o'sha yerdan so'kishlar uchun list topasizlar
+
+va u yerga qo'shimcha har xil so'kishlarni yozib chiqilar
+
+ayrim so'zlar xato yozilgan chunki odamlar klaviaturada adashishi mumkin shuning uchun ham
+
+siz ham xato so'kishlarni ham kiritavering...
+
+misol uchun qanjiq => [qanjq, qonjq, qanjiq, qanchiq, qnchiq] va hokazolar bitta so'kishlar
+
+ammo ayrim harflar tushib qolgan...
